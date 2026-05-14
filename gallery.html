@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio de Proyectos — VEXA Ultra Vision</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/gallery.css">
+</head>
+<body class="page-gallery">
+
+<!-- HEADER -->
+<header class="hdr hdr-solid" id="hdr">
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <span class="logo-v">V</span><span class="logo-r">EXA</span>
+      <span class="logo-s">Ultra Vision</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#soluciones">Soluciones</a></li>
+      <li><a href="index.html#tecnologia">Tecnología</a></li>
+      <li><a href="gallery.html" class="active">Proyectos</a></li>
+      <li><a href="index.html#empresa">Empresa</a></li>
+      <li><a href="index.html#footer" class="nav-cta">Contactar</a></li>
+    </ul>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- GALLERY HERO -->
+<div class="gal-hero">
+  <div class="gal-hero-bg">
+    <img src="assets/images/hero-led-building.png" alt="LED Building" style="width:100%;height:100%;object-fit:cover;opacity:.4">
+    <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(5,6,8,.3) 0%,rgba(5,6,8,.8) 100%)"></div>
+  </div>
+  <div class="gal-hero-c">
+    <span class="gl-label">Portafolio Global</span>
+    <h1 class="gal-h1">40.000+ proyectos<br><em>en 100+ países</em></h1>
+    <p>Desde una pantalla en Piccadilly Circus hasta el túnel LED de un hotel en Macao. Cada proyecto, único.</p>
+  </div>
+</div>
+
+<!-- FILTERS -->
+<div class="filter-bar">
+  <button class="filter-btn active" data-cat="all">Todos</button>
+  <button class="filter-btn" data-cat="exterior">Exterior</button>
+  <button class="filter-btn" data-cat="interior">Interior</button>
+  <button class="filter-btn" data-cat="deportes">Deportes</button>
+  <button class="filter-btn" data-cat="eventos">Eventos</button>
+</div>
+
+<!-- GALLERY GRID -->
+<div class="full-gallery" id="gallery">
+
+  <!-- Hero images -->
+  <div class="fg-item fg-big" data-cat="exterior">
+    <img src="assets/images/hero-led-building.png" alt="Pantalla LED fachada edificio" loading="lazy">
+    <div class="fg-info">
+      <span class="fg-cat">Exterior · Digital Out of Home</span>
+      <span class="fg-name">Pantalla LED Exterior Urbana</span>
+      <span class="fg-detail">Serie TES II PRO · P6.67 · Gran formato</span>
+    </div>
+  </div>
+
+  <div class="fg-item fg-big" data-cat="interior">
+    <img src="assets/images/led-tunnel.png" alt="Túnel LED inmersivo 360°" loading="lazy">
+    <div class="fg-info">
+      <span class="fg-cat">Interior · Experiencia Inmersiva 360°</span>
+      <span class="fg-name">Túnel LED Inmersivo</span>
+      <span class="fg-detail">Serie FC-L · P2.5 · 360° continuo</span>
+    </div>
+  </div>
+
+  <div class="fg-item" data-cat="exterior">
+    <img src="assets/images/led-cube-night.png" alt="Cubo LED nocturno" loading="lazy">
+    <div class="fg-info">
+      <span class="fg-cat">Exterior · Arte Urbano</span>
+      <span class="fg-name">Cubo LED Inmersivo Nocturno</span>
+      <span class="fg-detail">Serie FC-H Flexible · Estructura 3D</span>
+    </div>
+  </div>
+
+  <!-- Grok video 1 frames -->
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v1_001.jpg" alt="Proyecto LED 1" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Comercial</span><span class="fg-name">Instalación Comercial Premium</span><span class="fg-detail">HiPad II · Resolución Ultra HD</span></div></div>
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v1_002.jpg" alt="Proyecto LED" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Experiencial</span><span class="fg-name">Espacio Inmersivo</span><span class="fg-detail">FC-L Serie · Módulo flexible</span></div></div>
+  <div class="fg-item" data-cat="eventos"><img src="assets/images/gallery/v1_003.jpg" alt="Evento LED" loading="lazy"><div class="fg-info"><span class="fg-cat">Eventos · Escenario</span><span class="fg-name">Producción de Escenario</span><span class="fg-detail">LEX II Alquiler · P3.9</span></div></div>
+  <div class="fg-item" data-cat="eventos"><img src="assets/images/gallery/v1_004.jpg" alt="Evento concert" loading="lazy"><div class="fg-info"><span class="fg-cat">Eventos · Concierto</span><span class="fg-name">Escenario de Concierto</span><span class="fg-detail">FEX II · Alta frecuencia</span></div></div>
+  <div class="fg-item" data-cat="exterior"><img src="assets/images/gallery/v1_005.jpg" alt="Exterior LED" loading="lazy"><div class="fg-info"><span class="fg-cat">Exterior · Fachada</span><span class="fg-name">Fachada Edificio Comercial</span><span class="fg-detail">TES II PRO · P8</span></div></div>
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v1_006.jpg" alt="Interior retail" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Retail</span><span class="fg-name">Centro Comercial</span><span class="fg-detail">IS Serie · P2.5</span></div></div>
+  <div class="fg-item" data-cat="eventos"><img src="assets/images/gallery/v1_007.jpg" alt="Stage LED" loading="lazy"><div class="fg-info"><span class="fg-cat">Eventos · Producción</span><span class="fg-name">Producción Audiovisual</span><span class="fg-detail">LEX II · 5.000+ nits</span></div></div>
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v1_008.jpg" alt="Interior inmersivo" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Club</span><span class="fg-name">Club de Lujo</span><span class="fg-detail">FC-L · Curvatura 160°</span></div></div>
+
+  <!-- Grok video 2 frames -->
+  <div class="fg-item" data-cat="exterior"><img src="assets/images/gallery/v2_001.jpg" alt="Exterior night" loading="lazy"><div class="fg-info"><span class="fg-cat">Exterior · Nocturno</span><span class="fg-name">Display Nocturno Urbano</span><span class="fg-detail">OS Serie · P6.67</span></div></div>
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v2_002.jpg" alt="Interior broadcast" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Broadcast</span><span class="fg-name">Estudio de Televisión</span><span class="fg-detail">HiPad II-COB · P0.9</span></div></div>
+  <div class="fg-item" data-cat="eventos"><img src="assets/images/gallery/v2_003.jpg" alt="Events" loading="lazy"><div class="fg-info"><span class="fg-cat">Eventos · Festival</span><span class="fg-name">Festival de Música</span><span class="fg-detail">FEX II · P2.9</span></div></div>
+  <div class="fg-item" data-cat="exterior"><img src="assets/images/gallery/v2_004.jpg" alt="Building" loading="lazy"><div class="fg-info"><span class="fg-cat">Exterior · Landmark</span><span class="fg-name">Punto de Referencia</span><span class="fg-detail">FC-H Flexible · P4</span></div></div>
+  <div class="fg-item" data-cat="deportes"><img src="assets/images/gallery/v2_005.jpg" alt="Stadium" loading="lazy"><div class="fg-info"><span class="fg-cat">Deportes · Estadio</span><span class="fg-name">Pantalla Perimetral</span><span class="fg-detail">SP Serie · P10 · Cert. UEFA</span></div></div>
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v2_006.jpg" alt="Hotel" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Hotelería</span><span class="fg-name">Lobby Hotel 5 Estrellas</span><span class="fg-detail">IS Serie · P2</span></div></div>
+  <div class="fg-item" data-cat="deportes"><img src="assets/images/gallery/v2_007.jpg" alt="Sports arena" loading="lazy"><div class="fg-info"><span class="fg-cat">Deportes · Arena</span><span class="fg-name">Arena Multideportiva</span><span class="fg-detail">SP-E Serie · 12.000 nits</span></div></div>
+  <div class="fg-item" data-cat="eventos"><img src="assets/images/gallery/v2_008.jpg" alt="Conference" loading="lazy"><div class="fg-info"><span class="fg-cat">Eventos · Corporativo</span><span class="fg-name">Conferencia Internacional</span><span class="fg-detail">HiPad II · P1.5</span></div></div>
+
+  <!-- Grok video 3 frames -->
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v3_001.jpg" alt="Metaverse theater" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Metaverso</span><span class="fg-name">Teatro Metaverso</span><span class="fg-detail">FC-L · Inmersión 360°</span></div></div>
+  <div class="fg-item" data-cat="exterior"><img src="assets/images/gallery/v3_002.jpg" alt="OOH display" loading="lazy"><div class="fg-info"><span class="fg-cat">Exterior · OOH</span><span class="fg-name">Cartelería Digital</span><span class="fg-detail">OPad-E · P2.6</span></div></div>
+  <div class="fg-item" data-cat="eventos"><img src="assets/images/gallery/v3_003.jpg" alt="Stage show" loading="lazy"><div class="fg-info"><span class="fg-cat">Eventos · Show</span><span class="fg-name">Espectáculo en Vivo</span><span class="fg-detail">LEX II + FEX II combinados</span></div></div>
+  <div class="fg-item" data-cat="deportes"><img src="assets/images/gallery/v3_004.jpg" alt="Basketball arena" loading="lazy"><div class="fg-info"><span class="fg-cat">Deportes · Baloncesto</span><span class="fg-name">Cancha de Baloncesto</span><span class="fg-detail">SP-R Serie · P5</span></div></div>
+  <div class="fg-item" data-cat="exterior"><img src="assets/images/gallery/v3_005.jpg" alt="Landmark" loading="lazy"><div class="fg-info"><span class="fg-cat">Exterior · Arte</span><span class="fg-name">Instalación Artística</span><span class="fg-detail">FC-H · Curvatura libre</span></div></div>
+  <div class="fg-item" data-cat="interior"><img src="assets/images/gallery/v3_006.jpg" alt="Control room" loading="lazy"><div class="fg-info"><span class="fg-cat">Interior · Control</span><span class="fg-name">Centro de Monitoreo</span><span class="fg-detail">HiPad II · Multi-pantalla</span></div></div>
+  <div class="fg-item" data-cat="eventos"><img src="assets/images/gallery/v3_007.jpg" alt="Convention" loading="lazy"><div class="fg-info"><span class="fg-cat">Eventos · Exposición</span><span class="fg-name">Feria Internacional</span><span class="fg-detail">FEX II · Cueva 3D inmersiva</span></div></div>
+  <div class="fg-item" data-cat="exterior"><img src="assets/images/gallery/v3_008.jpg" alt="Street retail" loading="lazy"><div class="fg-info"><span class="fg-cat">Exterior · Retail</span><span class="fg-name">Cadena Retail Urbana</span><span class="fg-detail">OS Serie · P3</span></div></div>
+
+</div>
+
+<!-- REFERENCE PROJECTS -->
+<div class="ref-projects">
+  <div class="ref-inner">
+    <h2 class="ps-title">Referencias <em>globales</em></h2>
+    <div class="ref-grid">
+      <div class="ref-item"><span class="ref-name">Museo Yeltsin, Rusia</span><span class="ref-spec">P50 · 2.400 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Shanghai Expo 2010</span><span class="ref-spec">P150 · 9.500 m²</span></div>
+      <div class="ref-item"><span class="ref-name">LA Live, Los Ángeles</span><span class="ref-spec">P76 · 925 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Puerto Victoria</span><span class="ref-spec">P25/P50 · 2.500 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Veneciana Macao</span><span class="ref-spec">P2.5 · 51 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Allianz Arena</span><span class="ref-spec">P6/10/16 · 208 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Staples Center LA</span><span class="ref-spec">P6/10/16 · 308 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Estadio Red Bull</span><span class="ref-spec">P10 · 718 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Yankee Stadium</span><span class="ref-spec">P10 · Perimetral</span></div>
+      <div class="ref-item"><span class="ref-name">Tianjin Chow Tai Fook</span><span class="ref-spec">P10 · 310 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Circuito Charlotte</span><span class="ref-spec">P30 · 1.486 m²</span></div>
+      <div class="ref-item"><span class="ref-name">Zhuhai WTA</span><span class="ref-spec">P10 · 200 m²</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER SIMPLE -->
+<footer id="footer">
+  <div class="ft-hero" style="padding:3rem 8vw">
+    <div class="ft-tagline" style="font-size:clamp(2rem,5vw,5rem)">¿TIENES UN <span>PROYECTO</span>?</div>
+    <div class="ft-sub">Cuéntanos tu visión. Te respondemos en menos de 24h.</div>
+    <div class="ft-cta-wrap">
+      <a href="mailto:michaelsong@szretop.com" class="bp">Contactar ahora</a>
+      <a href="index.html" class="bs">Volver al inicio</a>
+    </div>
+  </div>
+  <div class="ft-bottom">
+    <span class="ft-copy">© 2024 VEXA Ultra Vision Technology. Todos los derechos reservados.</span>
+    <div class="ft-legal">
+      <a href="#">Privacidad</a><a href="#">Términos</a><a href="#">Cookies</a>
+    </div>
+    <div class="ft-badge">40.000+ Proyectos · 100+ Países</div>
+  </div>
+</footer>
+
+<script src="js/gallery.js"></script>
+</body>
+</html>
