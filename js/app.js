@@ -10,7 +10,7 @@
      ═══════════════════ */
   var V1_TOTAL  = 290;   // wave video frames (ajustado al quitar d'strict)
   var V2_TOTAL  = 241;   // new video frames
-  var FRAME_EXT = 'jpg';
+  var FRAME_EXT = 'webp';
 
   /* ═══════════════════
      CANVAS 1 — WAVE
